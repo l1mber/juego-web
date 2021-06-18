@@ -1,0 +1,36 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(34, 248, 15);
+    border: 8px dashed rgb(255, 19, 3);
+}
+
+
+
+#player {
+	background-color: rgb(11, 7, 243);
+	border: 4px dashed rgb(231, 247, 13);
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.3s
+}
+.pointer {
+	background-color: rgb(247, 10, 188);
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: rgb(250, 248, 244);
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+}
