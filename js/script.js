@@ -11,7 +11,7 @@ function sumarPuntos(){
    document.getElementById("player").style.marginTop =randNum + "px";
    document.getElementById("player").style.marginLeft =randNum2 + "px";
    if (puntos == 30) {
-   	alert("ganaste");
+   	alert("GANASTE ERES UN CAMPEON");
    }
 }
 
@@ -20,7 +20,7 @@ function restarTiempo() {
 	tiempo--;
 	document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: "+tiempo; 
 	if (tiempo == 0) {
-		alert("perdiste maestro");
+		alert("PERDISTE SIGUE LUCHANDO ANIMOS");
 		tiempo = 0;
 		puntos = 0;
 	}
