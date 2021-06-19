@@ -4,6 +4,12 @@
 	font-family: sans-serif;
 }
 
+.fondo{
+	background-image: url(../imagen/draaa.jpg);
+	width: 100%;
+	height: 100vh;
+}
+
 .contenedor {
     padding: 0px;
     margin: auto;
